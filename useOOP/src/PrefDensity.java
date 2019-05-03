@@ -1,11 +1,10 @@
-public class PrefAverage {
+public class PrefDensity {
 
     public static void main(String[] args) {
-	// write your code here
         Prefecture[] prefs = {
                 new Prefecture("青森",1278000,9646),
-                new Prefecture("宮城",2323000,11610),
-                new Prefecture("青森",996000,7285)
+                new Prefecture("宮城",2323000,7285),
+                new Prefecture("秋田",996000,11610)
         };
 
         for(Prefecture pref : prefs){
